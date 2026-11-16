@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8886222574:AAGWXDfP3EvQSFAXTAPv8Nfa17yKyDoiqiU").strip()
 OWNER_ID = int(os.getenv("OWNER_ID", "8480522053"))
 DATABASE_PATH = os.getenv("DATABASE_PATH", "data/appeals.sqlite3")
 SUPPORT_TEXT = os.getenv(
